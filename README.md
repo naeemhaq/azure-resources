@@ -4,3 +4,4 @@ While preparing for AZ 103 exam I gathered information from wide range of intern
 
 ## Azure Storage Account
 
+![](images/AzureStorageMindMap.png)
