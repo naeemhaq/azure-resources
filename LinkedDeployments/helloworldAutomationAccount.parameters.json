@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "automationAccountName": {
-            "value": "BTJ-DevOpsDeployTestAA"
+            "value": "ccoeNU-AutomationAcc"
         },
         "location": {
-            "value": "eastus"
+            "value": "canadacentral"
         },
         "diagnosticSettingName": {
-            "value": "BTJ-AADiagnostic"
+            "value": "ccoeNU-DiagnosticSettings"
         },
         "workspaceName": {
-            "value": "BTJ-DevOpsDeployTestLAW"
+            "value": "ccoeNU-analyticsWorkspace"
         },
         "runbookModuleUpdateUri": {
             "value": "https://btjdeploymentstorage.blob.core.windows.net/runbook-templates/Update-AutomationAzureModulesForAccount.ps1"

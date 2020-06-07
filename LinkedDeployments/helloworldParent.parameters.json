@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "location": {
-      "value": "eastus"
+      "value": "canadacentral"
     },
     "deploymentResourceGroupName": {
-      "value": "BTJ-DevOpsDeployTestRG"
+      "value": "ccoe-nu-rg"
     },
     "templateStorageContainerUriRoot": {
-      "value": "https://btjdeploymentstorage.blob.core.windows.net/arm-templates/"
+      "value": "https://ccoenushellblob1.blob.core.windows.net/ccoenu-templates/"
     },
     "parameterStorageContainerUriRoot": {
-      "value": "https://btjdeploymentstorage.blob.core.windows.net/arm-templates/"
+      "value": "https://ccoenushellblob1.blob.core.windows.net/ccoenu-parameters/"
     }
   }
 }

@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "functionAppName": {
-      "value": "BTJ-DevOpsDeployTestAFX"
+      "value": "ccoeNU-DevOpsDeployTestAFunApp"
     },
     "insightsAppName": {
-      "value": "BTJ-DevOpsDeployTestAI"
+      "value": "ccoeNU-DevOpsDeployTestAppInsights"
     },
     "storageName": {
-      "value": "btjdevopsteststor"
+      "value": "ccoenushellblob"
     }
   }
 }

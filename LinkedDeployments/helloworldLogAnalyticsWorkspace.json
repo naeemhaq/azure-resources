@@ -17,10 +17,10 @@
         "location": {
             "type": "string",
             "allowedValues": [
-                "eastus",
+                "canadacentral",
                 "westus"
             ],
-            "defaultValue": "eastus",
+            "defaultValue": "canadacentral",
             "metadata": {
                 "description": "Specifies the location in which to create the workspace."
             }

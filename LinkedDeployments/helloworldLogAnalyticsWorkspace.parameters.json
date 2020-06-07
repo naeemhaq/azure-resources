@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "workspaceName": {
-      "value": "BTJ-DevOpsDeployTestLAW"
+      "value": "ccoenu-loganalyticsworkspace2"
     },
     "location": {
-      "value": "eastus"
+      "value": "canadacentral"
     },
     "logAnalyticsWorkspaceSku": {
       "value": "PerGB2018"
