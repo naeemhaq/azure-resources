@@ -24,7 +24,7 @@
             "value": "Runbook updates the Azure RM modules for the given automation account."
         },
         "AutomationJobOperatorRoleDefinitionId": {
-            "value": "4fe576fe-1146-4730-92eb-48519fa6bf9f"
+            "value": ""
         },
         "AutomationJobOperatorAadObjectID": {
             "value": ""
