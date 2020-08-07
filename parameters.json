@@ -1,0 +1,86 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "canadacentral"
+        },
+        "networkInterfaceName": {
+            "value": "couchbase-mfa100"
+        },
+        "networkSecurityGroupId": {
+            "value": "/subscriptions/a84771c4-d59c-4233-8c65-9e7c8e404eac/resourceGroups/gluu-cc-rg/providers/Microsoft.Network/networkSecurityGroups/couchbase-nsg"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/a84771c4-d59c-4233-8c65-9e7c8e404eac/resourceGroups/gluu-cc-rg/providers/Microsoft.Network/virtualNetworks/gluu-cc-rg-vnet"
+        },
+        "publicIpAddressName": {
+            "value": "couchbase-mfa-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "couchbase-mfa"
+        },
+        "virtualMachineComputerName": {
+            "value": "couchbase-mfa"
+        },
+        "virtualMachineRG": {
+            "value": "gluu-cc-rg"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "dataDisks": {
+            "value": [
+                {
+                    "lun": 0,
+                    "createOption": "attach",
+                    "caching": "None",
+                    "writeAcceleratorEnabled": false,
+                    "id": null,
+                    "name": "couchbase-mfa_DataDisk_0",
+                    "storageAccountType": null,
+                    "diskSizeGB": null,
+                    "diskEncryptionSet": null
+                }
+            ]
+        },
+        "dataDiskResources": {
+            "value": [
+                {
+                    "name": "couchbase-mfa_DataDisk_0",
+                    "sku": "Standard_LRS",
+                    "properties": {
+                        "diskSizeGB": 64,
+                        "creationData": {
+                            "createOption": "empty"
+                        }
+                    }
+                }
+            ]
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B2s"
+        },
+        "adminUsername": {
+            "value": "azureuser"
+        },
+        "adminPublicKey": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "gluuccrgdiag"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/a84771c4-d59c-4233-8c65-9e7c8e404eac/resourceGroups/gluu-cc-rg/providers/Microsoft.Storage/storageAccounts/gluuccrgdiag"
+        }
+    }
+}
